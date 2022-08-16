@@ -1,0 +1,54 @@
+h3 {
+  width: 367px;
+  height: 84px;
+
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+
+  color: #33323D;
+}
+
+button {
+  all: unset;
+}
+
+.btn-contato button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #33323D 1px solid;
+  
+  width: 168px;
+  height: 48px;
+}
+
+.btn-contato {
+  text-decoration: none;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #33323D;
+}
+
+.btn-contato:hover {
+  background-color: #33323D;
+  color: #fafafa;
+}
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  padding: 150px 165px;
+}

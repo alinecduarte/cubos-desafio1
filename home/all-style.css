@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FAFAFA;
+  min-height: 100vh;
+}
+
+nav {
+  display:flex;
+  flex-direction: row;
+}
+
+
+footer {
+  min-width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 1884px;
+  
+  background: #33323D;
+}
+
+.container {
+  max-width: 1110px;
+  max-height: 84px;
+  margin: auto;
+}
+
+.logo {
+  width: 60px;
+  height: 32px;
+  margin-left: 165px;
+}
+
+.menu {
+  display:flex;
+  flex-direction: row;
+
+  margin-top: 64px;
+
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.menu-itens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1111px;
+}
+
+.logo-light {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.texto-escuro a {
+  text-decoration: none;
+  color: #33323d;
+
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.texto-escuro a:hover {
+  color: #5FB4A2;
+}
+
+.texto-claro a {
+  text-decoration: none;
+  color: #FFFFFF;
+
+  margin-top: 33px;
+
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.footer-itens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 165px;
+
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.redes-sociais {
+  margin-left: auto;
+}
+
+.redes-sociais img {
+  width: 24px;
+  height: 24px;
+}
+
+.twitter {
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,153 @@
+a { 
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  min-height: 600px;
+  margin-bottom: 149px;
+  background-image: url(../assets/quadrado-branco.jpg), url(../assets/home/image-homepage-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 445px 357px, 1110px 600px;
+  background-position: 165px 243px, 165px 0;
+}
+
+.hero-h2 {
+  margin-left: 192px;
+  margin-top: 299px;
+  max-width: 390px;
+  max-height: 200px;
+
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+
+  color: #33323D;
+}
+
+.btn-hero {
+  font-family: 'Public Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  background-color: #203a4c;
+
+  display: flex;
+  padding-left: 12px;
+  width: 200px;
+  height: 48px;
+  margin-top: 552px;
+  margin-left: -411px;
+}
+
+.btn-hero:hover {
+  background-color: #5FB4A2;
+}
+
+.seta-hero {
+  width: 16px;
+  height: 12px;
+  margin: 18px;
+}
+
+
+/* Sobre Section */
+hr {
+  width: 430px;
+  height: 1px;
+  margin-bottom: 50px;
+
+  background: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.sobre {
+  display: flex;
+  
+  width: 1110px;
+  height: 600px;
+  padding-left: 165px;
+}
+
+.sobre-img {
+  width: 540px;
+  height: 600px;
+}
+
+.sobre-h2 {
+  width: 430px;
+  height: 42px;
+  
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  
+  color: #33323D;
+}
+
+.sobre-info {
+  width: 430px;
+  height: 601px;
+  
+  margin-left: 140px;
+}
+
+.sobre-texto {
+  width: 430px;
+  min-height: 360px;
+  padding-top: 28px;
+  margin-bottom: 13px;
+  
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.btn-portifolio {
+  all: unset;
+  display: flex;
+  min-width: 204px;
+  height: 48px;
+  padding-top: 24px;
+  margin: 0 auto 46px;
+  justify-content: center;
+  align-items: center;
+  border: #33323D 1px solid;
+  
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  color: #33323D;
+  padding: 0px 28px;
+
+}
+
+.btn-portifolio:hover {
+  background-color: #33323D;
+  color: #fafafa;
+}
